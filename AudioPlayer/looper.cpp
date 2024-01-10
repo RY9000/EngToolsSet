@@ -48,7 +48,7 @@ const wchar_t* pstate[2] = { L"One|",L"All|" };
 const wchar_t* rstate[2] = { L"Once |",L"Twice|" };
 const wchar_t* cstate[3] = { L"2sec ",L"LRC  ",L"Auto" };
 const wchar_t* krepeating[2] = { L"             ",L"KeepRepeating" };
-wchar_t ffmpeg[] = L"C:\\Program Files (x86)\\mkvtoolnix\\ffmpeg.exe";
+wchar_t ffmpeg[] = L"ffmpeg.exe"; // path to your ffmpeg.exe
 wchar_t	mp3path[2000][MAX_PATH];
 
 struct {

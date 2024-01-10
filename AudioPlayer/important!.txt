@@ -1,1 +1,0 @@
-set stack reverse size to 10485760
